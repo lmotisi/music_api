@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const _ = require('lodash');
 const SongService = require('../services/songService');
 
 const mandatoryKeys = ['title', 'album', 'artist'];
